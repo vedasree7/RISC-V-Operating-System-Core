@@ -1,17 +1,13 @@
 # RISC-V Systems Programming Project
 
-This repository showcases a bare-metal systems programming project targeting the RISC-V architecture. It involves implementing foundational components of an operating system from scratch using RISC-V assembly and C. The goal of the project is to build a working prototype of core OS mechanisms, emphasizing direct interaction with hardware-level features and the RISC-V privilege architecture.
+This repository contains a bare-metal systems programming project on the RISC-V architecture. It focuses on building essential components of an operating system from the ground up using RISC-V assembly and C, with the aim of creating a working prototype that demonstrates core OS mechanisms through direct hardware-level interaction.
 
-Key features include privilege mode transitions, timer-based multitasking, Sv39-based virtual memory management, and trap handling for instruction/data page faults.
+Key features of this project include:
 
----
-
-## Table of Contents
-
-- [Overview](#overview)  
-- [Project Components](#project-components)  
-- [Technologies Used](#technologies-used)  
-- [Setup and Usage](#setup-and-usage)
+- Privilege mode transitions
+- Timer-based multitasking
+- Virtual memory management using the Sv39 scheme
+- Trap handling for instruction and data page faults
 
 ---
 
